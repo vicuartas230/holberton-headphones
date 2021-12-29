@@ -1,0 +1,9 @@
+html {
+    font-size: 90%;
+}
+
+:root {
+    --main-color: #FF6565;
+    --color-white: #FFF;
+    --color-black: #071629;
+}
