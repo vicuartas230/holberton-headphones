@@ -236,9 +236,24 @@ ul.row {
     background-position-x: center;
 }
 
-.dot-1 {
+.dots {
+    position: relative;
+    top: 7rem;
+    width: 11rem;
+    box-sizing: content-box;
+    border-width: 10.5rem 3.5rem 0;
+    border-style: solid;
+    border-color: #FF6565 transparent;
+}
+
+.dots::before {
+    content: "";
     position: absolute;
-    left: 26rem;
-    top: 191rem;
-    font-size: 5rem;
+    height: 0;
+    width: 0;
+    top: -17.3rem;
+    left: -3.5rem;
+    border-width: 0 9rem 6.8rem;
+    border-style: solid;
+    border-color: transparent transparent #FF6565;
 }
