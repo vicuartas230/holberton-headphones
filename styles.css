@@ -257,3 +257,68 @@ ul.row {
     border-style: solid;
     border-color: transparent transparent #FF6565;
 }
+
+.title-dots {
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    font-size: 4.2rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.tagline-dots {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    font-size: 1.4rem;
+    white-space: nowrap;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding: 0;
+}
+
+label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: var(--font-weight-bold);
+    padding: 5rem 0 .4rem;
+}
+
+input {
+    position: relative;
+    width: 100%;
+    border: none;
+    border-top: solid .001rem #979797;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-group {
+    width: 30rem;
+    position: relative;
+}
+
+.form-group .button {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: none;
+    margin: 6rem 0;
+}
